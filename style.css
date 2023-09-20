@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    width: 90%;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-image: url(./26807.jpg);
+}
+
+.form-control {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.button {
+    display: grid;
+    justify-content: center;
+}
+
+#pedirTurno,
+#cancelarTurno {
+    display: grid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: rgb(222, 232, 241);
+}
+
+#listaDeTurnos {
+    display: none;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+hr {
+    background-color: black;
+    border-color: black;
+    height: 2px;
+}
+
+footer {
+    display: grid;
+    padding: 1px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+}
